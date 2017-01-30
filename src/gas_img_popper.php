@@ -147,7 +147,7 @@ function gas_img_popper_head($event, $step) {
 <style type="text/css" src="../js/jquery-ui.min.css"></style>
 <script>
 $( function() {
-  $('input[type="date"]').datepicker({ dateFormat: 'yy-mm-dd', maxDate: 0});
+  $('.gas-input-date').datepicker({ dateFormat: 'yy-mm-dd', maxDate: 0});
 });
 </script>
 jquery;
@@ -207,7 +207,7 @@ jquery;
 
 .gas-img-popper-table tr {border:0}
 .gas-img-popper-table td {padding:0 .5em 0 0}
-.gas-img-popper-table input {max-width:12ex}
+/*.gas-img-popper-table input {max-width:12ex}*/
 
 .gas-cssload {
   border: 4px solid #f3f3f3; /* Light grey */
@@ -429,7 +429,10 @@ function gas_img_popper_category() {
         <tr><td>'.gTxt('gas_img_popper_from').'</td><td>'.gTxt('gas_img_popper_to').'</td></tr>
       </thead>
       <tbody>
-        <tr><td><input size="10" id="gas-img-popper-from" type="date" placeholder="1999-01-01"/ ></td><td><input size="10" id="gas-img-popper-to" type="date" placeholder="2199-12-12" /></td></tr>
+        <tr>
+          <td><input size="11" id="gas-img-popper-from" class="gas-input-date" type="text" placeholder="1999-01-01" maxlength="10" /></td>
+          <td><input size="11" id="gas-img-popper-to" class="gas-input-date" type="text" placeholder="2199-12-12" maxlength="10" /></td>
+        </tr>
       </tbody>
     </table>
   </div>
