@@ -20,7 +20,7 @@ $plugin['name'] = 'gas_img_popper';
 $plugin['version'] = '0.5';
 $plugin['author'] = 'Leonardo Gaudino';
 $plugin['author_uri'] = 'http://forum.textpattern.com/profile.php?id=201756';
-$plugin['description'] = 'Rapid click-paste &lttxp:image /&gt or &lttxp:thumbnail /&gt image code inside Write panel';
+$plugin['description'] = 'Rapid click-paste <txp:image /> or <txp:thumbnail /> image code inside Write panel';
 
 // Plugin load order:
 // The default value of 5 would fit most plugins, while for instance comment
