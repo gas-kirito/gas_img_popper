@@ -57,22 +57,7 @@ $plugin['flags'] = '';
 /** Uncomment me, if you need a textpack **/
 $plugin['textpack'] = <<< EOT
 #@gas
-gas_img_popper_append_tag => Image
-gas_img_popper_append_textile => Textile
-gas_img_popper_append_thumb => Thumbnail
-gas_img_popper_cat_label => Category
-gas_img_popper_count => Found count image(s)
-gas_img_popper_from => From
-gas_img_popper_hint => Choose category and date interval
-gas_img_popper_no_pictures => No pictures in database
-gas_img_popper_reset => Reset
-gas_img_popper_tab_title => Link images
-gas_img_popper_to => To
-gas_img_popper_update => Update
-gas_img_popper_view_all => View all
-gas_next => Next
-gas_prev => Prev#@gas
-#@language en-gb
+#@language en
 gas_img_popper_append_tag => Image
 gas_img_popper_append_textile => Textile
 gas_img_popper_append_thumb => Thumbnail
@@ -89,7 +74,7 @@ gas_img_popper_view_all => View all
 gas_next => Next
 gas_prev => Prev
 #@gas
-#@language it-it
+#@language it
 gas_img_popper_append_tag => Immagine
 gas_img_popper_append_textile => Textile
 gas_img_popper_append_thumb => Miniatura
@@ -106,7 +91,7 @@ gas_img_popper_view_all => Tutte
 gas_next => Succ.
 gas_prev => Prec.
 #@gas
-#@language ja-jp
+#@language ja
 gas_img_popper_append_tag => 画像
 gas_img_popper_append_textile => Textile
 gas_img_popper_append_thumb => サムネイル
