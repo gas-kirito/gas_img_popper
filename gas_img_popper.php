@@ -133,16 +133,20 @@ function gas_img_popper_head($event, $step) {
     case '':
     case 'article':
         echo '<!-- gas_img_popper -->';
-        echo <<<jquery
-<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
-<style type="text/css" src="../js/jquery-ui.min.css"></style>
+// -- JQUERY LOAD REMOVED BECAUSE IT BREAKS THE INTERFACE
+/*        echo <<<jquery
+ *<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+ *<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+ *<style type="text/css" src="../js/jquery-ui.min.css"></style>
+ jquery;
+ */
+        echo <<<datepicker
 <script>
 $( function() {
   $('.gas-input-date').datepicker({ dateFormat: 'yy-mm-dd', maxDate: 0});
 });
 </script>
-jquery;
+datepicker;
 
         echo <<<css
 <style type="text/css">
